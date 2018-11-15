@@ -1,7 +1,11 @@
 import React, { Component } from 'react';
+// import ReactDOM from 'react-dom';
 import logo from './logo.svg';
 import './App.css';
+import './test.js';
 import './tick.js';
+
+
 
 class App extends Component {
   render() {
@@ -21,9 +25,10 @@ class App extends Component {
             Learn React
           </a>
         </header>
+
       </div>
     );
   }
 }
-// tick();
+
 export default App;

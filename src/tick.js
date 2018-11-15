@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom';
 import './App.css';
 
@@ -9,7 +9,7 @@ function tick() {
             <h2>It is {new Date().toLocaleTimeString()}.</h2>
         </div>
     );
-    ReactDOM.render(element, document.getElementById('root'));
+    ReactDOM.render(element, document.getElementById('tick'));
 }
 
 setInterval(tick, 1000);
