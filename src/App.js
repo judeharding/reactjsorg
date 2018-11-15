@@ -6,7 +6,6 @@ import './test.js';
 import './tick.js';
 
 
-
 class App extends Component {
   render() {
     return (
